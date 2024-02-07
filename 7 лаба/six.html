@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 6</title>
+    <style>
+        .a1 .a2 .a3 .a4 .a5{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            background-image:url(/image/France.jpg);
+        }
+        .a1{
+            animation: one 5s linear infinite;
+        }
+        .a2{
+            animation: two 5s linear infinite;
+        }
+        .a3{
+            animation: three 5s linear infinite;
+        }
+        .a4{
+            animation: four 5s linear infinite;
+        }
+        .a5{
+            position: relative;
+            animation: five 5s linear infinite;
+        }
+        @keyframes one{
+            0% {transform: translateX(0);}
+            100% {transform: translateX(200px);}
+        }
+        @keyframes two{
+            0% {transform: translateX(0);border-radius: 0;}
+            100% {transform: translateX(200px);border-radius: 50%;}
+        }
+        @keyframes three{
+            0%{transform: translateX(-100%);}
+            100%{transform: translateX(2000%);}
+        }
+        @keyframes four{
+            0% {transform: translateY(0);}
+            100% {transform: translateY(50px);}
+        }
+        @keyframes five{
+            0% {left: 0; top: 0;}
+            25% {left: 200px; top: 0;}
+            50% {left: 200px; top: 200px;}
+            75% {left: 0; top: 200px;}
+            100% {left: 0; top: 0;}
+        }
+        .d1{
+            overflow: hidden;
+        }
+        </style>
+</head>
+<body>
+    <h1>Перемещения</h1>
+    <div><img src="image/France.jpg" class="a1"></div>
+    <div><img src="image/France.jpg" class="a2"></div>
+    <div class="d1"><img src="image/France.jpg" class="a3"></div>
+    <div><img src="image/France.jpg" class="a4"></div>
+    <div><img src="image/France.jpg" class="a5"></div>
+</body>
+</html>

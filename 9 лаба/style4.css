@@ -1,0 +1,35 @@
+.columns{
+    border: 3px solid black;
+    padding-right: 5%;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+li{
+    display: inline;
+    font-size: 15px;
+    padding-right: 5%;
+}
+.container{
+    max-width: 960px;
+}
+ul{
+    width: 600px;
+    position: relative;
+    top: 35px;
+    list-style: none;
+    text-align: center;
+}
+.five.columns{
+    width: 600px;
+    height: 110px;
+}
+.row{
+    margin-top: 5%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.h3{
+    height: 150px;
+}

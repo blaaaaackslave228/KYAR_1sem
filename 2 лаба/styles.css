@@ -1,0 +1,12 @@
+h1, h2, h3{
+    color: blueviolet; font-family:cursive;
+}
+.pnk1{
+    color: red; font-family: 'Times New Roman', Times, serif; font-size:18pt;
+}
+.pnk2{
+    color:yellow; font-family: 'Times New Roman', Times, serif; font-size:20pt;
+}
+.pnk3{
+    color: green; font-family: 'Times New Roman', Times, serif; font-size: 22pt;
+}

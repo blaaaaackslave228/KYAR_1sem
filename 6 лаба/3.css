@@ -1,0 +1,68 @@
+.pnk1 div{
+    display: inline-block;
+}
+.pnk2 div{
+    display: inline-block;
+}
+.pnk3{
+    display: inline-block;
+}
+figure{
+    background: #D8BFD8; 
+    display:inline-block;
+    width: 300px; 
+    margin: 10px 10px 10px 10px; 
+    text-align: center; 
+   }
+   figcaption{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.f1{
+    width: 300px;
+    height: 200px;
+}
+.f2{
+    width: 300px;
+    height: 200px;
+}
+.f3{
+    width: 300px;
+    height: 200px;
+}
+.f4{
+    width: 300px;
+    height: 200px;
+}
+.f5{
+    width: 300px;
+    height: 200px;
+}
+.f6{
+    width: 300px;
+    height: 200px;
+}
+.f7{
+    width: 300px;
+    height: 200px;
+}
+.f8{
+    width: 300px;
+    height: 200px;
+}
+.f9{
+    width: 300px;
+    height: 200px;
+}
+.f10{
+    width: 300px;
+    height: 200px;
+}
+.f11{
+    width: 300px;
+    height: 200px;
+}
+.f12{
+    width: 300px;
+    height: 200px;
+}

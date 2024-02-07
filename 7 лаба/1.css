@@ -1,0 +1,9 @@
+div{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.France:hover{transform: scale(0.5)}
+.Germany:hover{transform: rotate(45deg);}
+.Italy:hover{transform: translate(40px);}
+.Spain:hover{transform: skew(-20deg);}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+    <link href="Skeleton-2.0.4/Skeleton-2.0.4/css/normalize.css" rel="stylesheet">
+    <link href="Skeleton-2.0.4/Skeleton-2.0.4/css/skeleton.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <link href="style2.link.css" rel="stylesheet">
+    <style>
+        @media(max-width: 500px) {
+            .f1{
+                color: red !important;
+                }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="menu_box">
+            <input type="checkbox" id="burger">
+            <label for="burger" class="menu_btn"><span></span></label>
+            <label class="menu">Меню</label>
+            <div class="menu_item">
+                <label><a href="#div1">Video</a></label>
+                <label><a href="#div2">Информация о Flexbox-вёрстке</a></label>
+                <label><a href="#div3">Audio</a></label>
+            </div>
+        </div>
+            <div class="h2">
+                <h2>Flexbox-вёрстка</h2>
+            </div>
+            <div id="div1" class="div1">
+                <video src="videos/182970 (540p).mp4" controls="controls" height="200px" width="300px"></video>
+                <video src="videos/178826 (540p).mp4" controls="controls" height="200px" width="300px"></video>
+                <video src="videos/165065 (540p).mp4" controls="controls" height="200px" width="300px"></video>
+            </div>
+            <div id="div2" class="div2">
+                <p class="p1">Flexbox-верстка — разметка макетов веб-страниц, которая 
+                    позволяет автоматически настраивать ширину элементов, 
+                    находящихся внутри flex-контейнера. Для применения данного 
+                    способа разметки следует учитывать разделение применяемых 
+                    свойств на свойства flex-контейнера и свойства flex-элемента.С помощью display: flex; осуществляется преобразование 
+                    HTML-элемента в flex-контейнер, а элементы находящийся внутри 
+                    него в flex-элементы. По умолчанию flex-элементы помещаются 
+                    друг за другом в одной строке. Свойство flex-flow позволяет 
+                    выбрать направление отображения элементов в контейнере, а 
+                    также указать их перенос на следующую строку. Первое значение 
+                    определяет направление, а второе перенос на следующую строку.Свойство flex-flow является сокращенной записью и содержит 
+                    значения свойств flex-direction и flex-wrap. Flex-элементы могут 
+                    размещаться в строке (значение row) или в колонке (значение column). 
+                    Перенос элементов осуществляется с помощью значения wrap.                
+                </p>
+            </div>
+            <div id="div3" class="div3">
+                <p></p>
+                <audio src="audios/drive-breakbeat-173062.mp3" controls preload="auto"></audio>
+                <p></p>
+                <audio src="audios/science-documentary-169621.mp3" controls preload="auto"></audio>
+                <p></p>
+                <audio src="audios/titanium-170190.mp3" controls preload="auto"></audio>
+            </div>
+            <div class="image-container">
+                <h2>Футбольные клубы</h2>
+                <figure>
+                    <img src="photos/AC_Milan.png">
+                    <figcaption class="f1">AC Milan</figcaption>
+                </figure>
+                <figure>
+                    <img src="photos/Arsenal_FC.png">
+                    <figcaption class="f1">Arsenal FC</figcaption>
+                </figure>  
+                <figure>
+                    <img src="photos/Atletico_Madrid.png">
+                    <figcaption class="f1">Atletico Madrid</figcaption>
+                </figure>    
+                <figure>
+                    <img src="photos/FC_Barcelona.png">
+                    <figcaption class="f1">FC Barcelona</figcaption>
+                </figure>    
+                <figure>
+                    <img src="photos/FC_Bayern_München.png">
+                    <figcaption class="f1">FC Bayern München</figcaption>
+                </figure>
+                <figure>
+                    <img src="photos/FC_Chelsea.png">
+                    <figcaption class="f1">FC Chelsea</figcaption>
+                </figure>                                       
+                <figure>
+                    <img src="photos/FC_Liverpool.png">
+                    <figcaption class="f1">FC Liverpool</figcaption>
+                </figure>   
+                <figure>
+                    <img src="photos/Real_Madrid.png">
+                    <figcaption class="f1">Real Madrid</figcaption>
+                </figure>       
+            </div>
+    </main>
+</body>
+</html>

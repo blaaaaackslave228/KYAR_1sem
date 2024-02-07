@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блочная модель</title>
+    <style>
+       body div{
+            display: inline;
+        }
+        .a1{border-color: rgb(255, 0, 0);
+            border-style: outset;
+        }
+        .a2{
+            border-color: rgb(0, 255, 0);
+            border-style: dashed;
+        }
+        .a3{
+            border-color: rgb(0, 0, 255);
+            border-style: dotted;
+        }
+        .a4{
+            border-style: double;
+            border-color: rgb(0, 255, 255);
+        }
+        .a5{
+            border-style: groove;
+            border-color: rgb(255, 0, 255);
+        }
+        .a6{
+            border-style: inset;
+            border-color: rgb(255, 255, 0);
+        }
+        .a7{
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+        }
+        .c1{
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: solid;
+            border-color: #FF7F50;
+        }
+        .c2{
+            border-style: solid;
+            border-color: red;
+            border-width: 5px;
+            border-radius: 20px/40px;
+            box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+            overflow: auto;
+        }
+        .c3{
+            border-style: solid;
+            border-color: #FF6347;
+        }
+        span, i, b{
+            display: inline-block;
+            padding: 5px 5px 5px 5px;
+            margin: 5px 5px 5px 5px;
+            background-color: #FFA500;
+            border-style: solid;
+            border-color: #FF4500;
+        }
+    </style>
+</head>
+<body>
+    <div class="a1">R</div>
+    <div class="a2">G</div>
+    <div class="a3">B</div>
+    <div class="a4">C</div>
+    <div class="a5">M</div>
+    <div class="a6">Y</div>
+    <div class="a7">K</div>
+    <p class="c1"><span>США</span> — страна с наибольшим процентом людей в тюрьмах. Около четверти всех заключённых мира находится именно здесь. Россия занимает второе место, а Таиланд – третье.</p>
+    <p class="c2">Страна с наибольшим количеством полных людей — <i>островное государство Науру</i>, здесь в той или иной степени страдает от избыточного веса страдает около 95 процентов населения.</p>
+    <p class="c3">В Канаде расположено около 60 процентов всех озёр мира. Их <b>более трёх миллионов</b>, и они занимают 9 процентов канадской территории.</p>
+</body>
+</html>

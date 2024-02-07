@@ -1,0 +1,24 @@
+$font-size-small: 16px;
+$font-size-medium: 20px;
+$font-size-large: 24px;
+$header-size: small;
+h1 {
+  text-align: center;
+  font-size: $font-size-medium;
+}
+@mixin set-font-size($size) {
+  @if $size == 16px {
+    font-size: $font-size-small;
+  } @else if $size == 20px {
+    font-size: $font-size-medium;
+  } @else if $size == 24px {
+    font-size: $font-size-large;
+  } @else {
+    font-size: 18px; 
+  }
+}
+aside{
+    p{
+        @include set-font-size($header-size);
+    }
+}

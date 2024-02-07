@@ -1,0 +1,19 @@
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%
+}
+form{
+    @include flex;
+}
+%width, %margin{
+    width:200px;
+    margin: 10px;
+}
+label{
+    @extend %width, %margin;
+}
+input{
+    @extend %width, %margin;
+}

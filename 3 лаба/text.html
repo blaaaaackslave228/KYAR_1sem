@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виды крокодилов</title>
+    <style>
+        @font-face {
+            font-family:'Caveat';
+            src: url('fonts/Caveat.woff') format('woff');
+        }
+        h1{
+            font-family:'Caveat';
+            text-align: center;
+            font-weight: bold;
+            padding-left: 0px;
+            margin-left: 0px;
+            font-size: 45px;
+            text-transform: small-caps;
+            text-shadow: 5px 2px black;
+        }
+        @font-face {
+            font-family:'Exo2';
+            src: url('fonts/Exo2.woff') format('woff');
+        }
+        h2{
+            font-family: 'Exo2';
+            text-align: left;
+            text-indent: 25px;
+            margin-top: 0.2rem;
+            margin-bottom: 1.2rem;
+        }
+        @font-face {
+            font-family: 'Comfortaa';
+            src: url('fonts/Comfortaa.woff') format('woff');
+        }  
+        p{
+            font-family: 'Comfortaa';
+            text-align: justify;
+            text-indent: 25px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 2;
+            font-size: 20px;
+        } 
+        p::first-letter{
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            background-color: hsla(275, 100%, 10%, 1);
+        }
+        ol li{
+            list-style-type: none;
+            counter-increment: item;
+            font-family: 'Comfortaa';
+            color: black;
+            font-size: 20px;
+        }
+     li::before{
+            content: counter(item, upper-roman) ". ";
+            color:blue;
+        }
+        h2 span{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        div::first-line{
+            color: red;
+        }
+        div+p::first-letter{
+            color: black;
+            background-color: white;
+            font-weight: normal;
+        }
+        div+p{
+            text-indent: 25px;
+            font-family: 'Comfotaa';
+            font-size: 20px;
+        }
+        </style>
+</head>
+<body>
+    <h1>Крокодилы, их виды, семейства  и некоторые представители</h1>
+    <h2>Семейство настоящие крокодилы</h2>
+    <p>Гребнистый, морской, или солоноводный крокодил (Crocodylus porosus) – считается самым крупным из современных крокодилов. Некоторые экстремально крупные взрослые самцы достигают 7-ми метров в длину. Часто уходит в открытое море, благодаря чему он и заслужил одно из своих названий. Обитает гребнистый крокодил в Юго-Восточной Азии и в северной части Австралии.</p>
+    <p>Нильский крокодил (Crocodylus niloticus) размерами сопоставим с гребнистым крокодилом, хотя в среднем немного уступает ему в длине. Обычно максимальная длина самцов составляет около 6-ти метров. Распространён в Африке.</p>
+    <h2>Семейство аллигаторы</h2>
+    <p>Миссисипский, или американский аллигатор (Alligator mississippiensis)соперничает с чёрным кайманом за звание самого крупного представителя семейства Alligatoridae. Длина взрослых самцов обычно составляет 4-4,5 метра, однако в исключительных случаях, согласно некоторым источникам, может достигать более 5-ти метров. Челюсти сильные и широкие. Распространение: юг США.</p>
+    <h2><span>Ещё несколько представителей:</span></h2>
+    <ol>
+        <li>Китайский аллигатор.</li>
+        <li>Чёрный кайман.</li>
+        <li>Крокодиловый, или очковый кайман.</li>
+        <li>Широкомордый кайман.</li>
+        <li>Парагвайский, или якарский кайман.</li>
+    </ol>
+    <div>
+        <p>Габариты представителей отряда существенно разнятся. Так, тупорылый крокодил редко вырастает больше полутора метров, зато отдельные особи гребнистых крокодилов вымахивают до 7 и более метров. У крокодилов вытянутое, несколько уплощенное тело и большая голова с удлиненной мордой, посаженная на короткую шею. Глаза и ноздри находятся на верхней части головы, в силу чего рептилия отлично дышит и видит при погружении корпуса в воду. Кроме того, крокодил умеет задерживать дыхание и по 2 часа сидит под водой, не поднимаясь на поверхность. Он признан, вопреки маленькому объему мозга, наиболее умным среди пресмыкающихся.</p>
+    </div>
+    </body>
+</html>

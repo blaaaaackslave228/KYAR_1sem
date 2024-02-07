@@ -1,0 +1,27 @@
+tr,td{
+    empty-cells: hide;
+    border:1px ridge grey;
+}
+caption{
+    size: 1.2em;
+    text-align: center;
+}
+.pnk1{
+    background-color: darkblue;
+    color:white;
+}
+.pnk2{
+    background-color: deepskyblue;
+    color:white;
+}
+.pnk3{
+    background-color: purple;
+    color: white;
+}
+.pnk4{
+    background-color: green;
+    color:white;
+}
+table{
+    border-spacing: 0px;
+}

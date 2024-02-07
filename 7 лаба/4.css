@@ -1,0 +1,61 @@
+img{
+    height: 200px;
+    width: 300px;
+}
+div{
+    perspective: 500px;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+}
+.France{
+    z-index: 1;
+    animation: anime1 5s linear infinite;
+}
+.Germany{
+    z-index: 2;
+    right: 250px;
+    animation: anime2 5s linear infinite;
+}
+.Italy{
+    z-index: 3;
+    right: 500px;
+    animation: anime3 5s linear infinite;
+}
+.Spain{
+    z-index: 4;
+    right: 750px;
+    animation: anime4 5s linear infinite;
+}
+@keyframes anime1{
+    0%{transform: rotateY(45deg);}
+    15%{transform: rotateY(45deg);}
+    25%{transform: rotateY(0); perspective: 10000px;}
+    50%{}
+    75%{}
+    100%{}
+}
+@keyframes anime2{
+    0%{transform: rotateY(45deg);}
+    15%{transform: rotateY(45deg);}
+    25%{transform: rotateY(0); perspective: 10000px;}
+    50%{left:-250px;}
+    75%{left: 0px;}
+    100%{left: 0px; filter: blur(10px);}
+}
+@keyframes anime3{
+    0%{transform: rotateY(45deg);}
+    15%{transform: rotateY(45deg);}
+    25%{transform: rotateY(0); perspective: 10000px;}
+    50%{left:-500px;}
+    75%{left: 0px;}
+    100%{left: 0px; filter:grayscale(1);}
+}
+@keyframes anime4{
+    0%{transform: rotateY(45deg);}
+    15%{transform: rotateY(45deg);}
+    25%{transform: rotateY(0); perspective: 10000px;}
+    50%{left:-750px;}
+    75%{left:0px;}
+    100%{left: 0px; filter: invert(1);}
+}

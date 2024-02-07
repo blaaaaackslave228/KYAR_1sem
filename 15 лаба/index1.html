@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 1</title>
+    <style>
+      .photos {
+        display:inline-block;
+        margin: 20px;
+      }
+      img{
+        height: 300px;
+        width: 250px;
+      }
+    </style>
+</head>
+<body>
+    <div class="photos">
+        <div class="photo1" onmouseover="show()" onmouseout="hide()">
+            <img src="images/Trofeo_UEFA_Champions_League.jpg">
+            <div class="p1">
+                <p>Нынешний трофей главного клубного турнира Европы отличается от своего предшественника по дизайну.Старый кубок первоначально представлял собой большую серебряную амфору высотой 60 сантиметров с надписью на французском языке «Кубок европейских клубов чемпионов». Кубок Лиги чемпионов представляет собой серебряную амфору с золотым покрытием внутри. Высота современного кубка — 73,5 сантиметра, масса — семь с половиной килограмм, номинальная стоимость — 10 тысяч швейцарских франков. На задней стенке Кубка выгравированы названия клубов, становившихся его обладателями в разные годы.</p>
+            </div>
+        </div>
+        <div class="photo2" onclick="redborder()">
+            <img src="images/FIFA_World_Cup_Trophy_(Jules_Rimet_Trophy)_at_National_Football_Museum,_Manchester_02.jpg">
+        </div>
+        <div class="photo3" onmouseover="change()" onmouseout="reset()">
+            <img src="images/Coupe_Henri_Delaunay_2017.jpg">
+        </div>
+      </div>    
+      <script>
+    function show() {
+    let img = document.querySelector('.photo1 img');
+    let text = document.querySelector('.photo1 .p1');
+    img.style.display = 'none';
+    text.style.display = 'block';
+    }
+    function hide() {
+    let img = document.querySelector('.photo1 img');
+    let text = document.querySelector('.photo1 .p1');
+    img.style.display = 'block';
+    text.style.display = 'none';
+    }
+    function redborder() {
+    let border = document.querySelector('.photo2 img');
+    if (border.style.border) {
+        border.style.border = '';
+    } else {
+        border.style.border = '10px solid red';
+    }
+    }
+    function change() {
+    document.querySelector('.photo3 img').src = 'images/COPA_América_Trophy.png';
+    }
+    function reset() {
+    document.querySelector('.photo3 img').src = 'images/Coupe_Henri_Delaunay_2017.jpg';
+    }
+    </script>
+</body>
+</html>

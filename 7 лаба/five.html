@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 задание</title>
+    <style>
+        @keyframes change{
+            0%{background: url("image2/England.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px;}
+            20%{background: url("image2/France.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px;}
+            40%{background-image: url("image2/Germany.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px;}
+            60%{background-image: url("image2/Italy.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px;}
+            80%{background-image: url("image2/Spain.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px; 
+               }
+            100%{background-image: url("image2/England.jpg");
+               position: absolute;
+               background-repeat: no-repeat;
+               background-size: 700px 500px;}
+        }
+        #slideshow {
+            border: 5px solid #42a5f5;
+            width: 700px;
+            height: 500px;
+            position: absolute;
+            animation: change 5s linear infinite;
+            left: 700px;
+            top:100px;
+        }
+    </style>
+</head>
+<body>
+   <h1>Флаги</h1>
+   <div id="slideshow"></div>
+</body>
+</html>
